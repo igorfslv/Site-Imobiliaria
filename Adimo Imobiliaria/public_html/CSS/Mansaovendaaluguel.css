@@ -1,0 +1,78 @@
+.containerr {
+  padding: 20px;
+  
+}
+
+.carousel {
+  width: 100%;
+}
+
+.product-info {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.product-info h3 {
+  color:#322D29;
+}
+
+.product-info p {
+  margin: 5px 0;
+}
+
+.product-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.product-info ul li {
+  margin-left: 1.25em;
+  position: relative;
+}
+
+.product-info ul li:before {
+  content: '\2022';
+  color: #72383D;
+  position: absolute;
+  left: -1.25em;
+}
+
+.form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.form h2 {
+  color: #322D29;
+
+}
+
+.form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form input {
+  width: calc(100% - 20px);
+  padding: 8px 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form input[type="submit"] {
+  background-color:#322D29;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.form input[type="submit"]:hover {
+  background-color: #72383D;
+}

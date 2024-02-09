@@ -1,0 +1,226 @@
+.menu-opcoes ul{
+    font-size: 30px;
+}
+.menu-opcoes a{
+    color: #e74c3c;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+.menu-opcoes a:hover{
+    animation: pulse 1s infinite;
+}
+.menu-opcoes ul li{
+    display: inline;
+    margin-left: 70px;
+}
+header {
+    position: relative;
+    text-align: center; 
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+     position: fixed;
+    left: 0;
+    right: 0;
+    padding: 20px 0;
+}
+
+.menu-opcoes {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0; 
+    margin: 0 auto;   
+}
+.logo-adimo img{
+    display: flex;
+    align-items: center;
+    width: 150px; 
+    justify-content: flex-start; 
+}
+
+
+.botao-login {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: white;
+    color: red;
+    border: none;
+    padding: 8px 16px;
+    font-size: 26px;
+    cursor: pointer;
+    opacity: .7;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 30px;
+    text-decoration: none;
+    
+}
+.botao-login img {
+    vertical-align: middle; 
+    margin-right: 5px; 
+    width: 50px; 
+    border-radius: 10px;
+}
+
+.botao-login:hover {
+    animation: pulse 1s infinite;
+    background-color: #FF3131;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    color: white;
+}
+body {
+    margin: 0;
+}
+        
+#container-imagem {
+    position: relative;
+    height: 80vh;
+    width: 100vw;
+    background-color: rgba(255,0,0,0.5);
+    background-image: url('../img/BG_Site.jpg');
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+footer {
+    background-color: #FF3131;
+    clear: both;
+    padding: 20px;
+    text-align: center;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.rodape {
+    max-width: 960px;
+    margin: 0 auto;
+    margin-left: -100px;
+    padding-bottom: 50px;
+    
+}
+
+
+
+.social {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    vertical-align: middle; 
+    
+}
+.social img{
+    
+    height: 70px;
+    width: 70px;
+   vertical-align: middle; 
+}
+
+@media (max-width: 767px) {
+    .column {
+        width: 100%; 
+    }
+}
+.menu-rodape ul{
+    font-size: 30px;
+}
+.menu-rodape a{
+    color: white;
+    text-decoration: none;
+}
+.menu-rodape ul li{
+    display: inline;
+    margin-left: 70px;
+}
+.menu-rodape {
+    max-width: 960px;
+    height: 80px;    
+    position: absolute;
+    bottom: 0;
+    right: 0; 
+    margin: 20px 0 0 0;
+    font-size: 32px;
+    margin-right: 200px;
+    margin-top: 50px;
+    
+}
+.icone-user {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 20px; 
+}
+
+.icone-user img {
+    width: 50px;
+}
+figure {
+ background-color: #F2EDED;
+ border: 1px solid #ccc;
+ text-align: center;
+ padding: 15px;
+ margin-top: 30px;
+ margin: 0 auto;
+}
+figcaption {
+ font-style: italic;
+ margin-top: 10px;
+}
+p{
+    padding: 0 45px;
+    text-indent: 15px;
+    text-align: justify;
+}
+#adimo-historia{
+    float: right;
+    margin: 0 0 10px 10px;
+}
+body {
+color: #333333;
+font-family: "Lucida Sans Unicode","Lucida Grande", sans-serif;
+margin-left: auto;
+margin-right: auto;
+width: 940px;
+}
+h2 {
+border-bottom: 2px solid #333333;
+margin-top: 30px;
+}
+#adimo-historia img{
+     max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto
+}
+.sublista{
+    background-color: #FF3131;
+    position: fixed;
+    left: 0;
+    right: 0;
+    color: white;
+}
+.sublista ul li{
+        display: inline;
+        
+}
+.sublista a{
+    color: white;
+}

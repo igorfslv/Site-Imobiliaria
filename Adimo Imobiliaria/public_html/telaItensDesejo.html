@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Adimo Imóveis | Lista de Desejos</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    </head>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light  shadow fixed-top" style="background-color: #72383D;">
+            <div class="container">
+                <a class="navbar-brand text-white" href="PaginaInicial.html">Adimo Imóveis</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link text-white" href="https://www.google.com/maps/place/Adimco+Im%C3%B3veis+Eirele+-+ME/@-23.5393576,-46.5984746,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce59295decf3e3:0x9e13e19794b291f9!8m2!3d-23.5393576!4d-46.5984746!16s%2Fg%2F1v6wqg45?entry=ttu
+                               ">Localização</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="telaLogin.html">Imóveis</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="telaSobreNos.html">Sobre Nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="telaAtendimento.html">Fale Conosco</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="telaLogin.html">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>     
+    </header>
+
+    <div class="container" style="height: 100px;">
+
+    </div>
+
+    <body style="background-color: #d9d9d9;">
+        <div class="container-sm bg-white">
+
+            <h1 class="display-4 ms-2 p-2 mt-2">Itens Desejados</h1>
+
+            <ul id="listaDesejos"></ul>
+
+            <script class="ms-4 p-2 ps-6 pw-light ms-2 p-2 mt-2">
+                var listaDesejos = JSON.parse(localStorage.getItem('listaDesejos')) || [];
+                var listaDesejosElement = document.getElementById('listaDesejos');
+
+                listaDesejos.forEach(function (itemHTML) {
+                    var cardDiv = document.createElement('div');
+                    cardDiv.innerHTML = itemHTML;
+
+                    var titulo = cardDiv.querySelector('.card-title').textContent;
+                    var li = document.createElement('li');
+                    li.textContent = titulo;
+                    listaDesejosElement.appendChild(li);
+                });
+            </script>
+            <div class="container bg-white" style="height: 500px;"></div>
+        </div>
+    <div class="container" style="height: 50px;"></div>
+    </body>
+    <footer class="text-center text-lg-start text-white" style="background-color: #322D29"> 
+        <section class="d-flex justify-content-between p-4" style="background-color: #72383D">
+            <div class="me-5">
+                <span>Conecte-se conosco em nossas redes:</span>
+            </div>
+            <div>
+                <a href="https://www.facebook.com/adimobimoveis/?locale=pt_BR" class="text-white me-4"> Facebook
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://twitter.com/getadimo/status/1516695696446996489" class="text-white me-4"> Twitter
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/adimo_official/" class="text-white me-4"> Instagram
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.whatsapp.com/?lang=pt_BR" class="text-white me-4"> WhatsApp
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+        </section>
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <div class="row mt-3">
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold">Adimo Imóveis</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #AC9C8D; height: 2px"/>
+                        <p>
+                            Nossa meta é realizar o seu sonho!
+                        </p>
+                    </div>
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold">Links Úteis</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #AC9C8D; height: 2px"/>
+                        <p>
+                            <a href="telaUnidades.html" class="text-white">Unidades</a>
+                        </p>
+                        <p>
+                            <a href=telaLogin.html class="text-white">Anuncie seu Imóvel</a>
+                        </p>
+                        <p>
+                            <a href="telaLogin.html" class="text-white">Imóveis à Venda</a>
+                        </p>
+
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold">Links de Usúario</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #AC9C8D; height: 2px"/>
+                        <p>
+                            <a href="telaLogin.html" class="text-white">Sua Conta</a>
+                        </p>
+                        <p>
+                            <a href="telaCriarConta.html" class="text-white">Trabalhe Conosco</a>
+                        </p>
+                        <p>
+                            <a href="telaCriarConta.html" class="text-white">Cadastre-se</a>
+                        </p>
+                    </div>
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold">Contato</h6>
+                        <hr
+                            class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #AC9C8D; height: 2px"
+                            />
+                        <p><i class="fas fa-home mr-3"></i> Av.Paulista, 4562 - Bela Vista - São Paulo/SP</p>
+                        <p><i class="fas fa-envelope mr-3"></i> adimoimoveis@gmail.com</p>
+                        <p><i class="fas fa-phone mr-3"></i> (11) 1234-3421</p>
+                        <p><i class="fas fa-phone mr-3"></i> (11) 9 3124-3441</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            © 2023 Copyright: Adimo Imóveis S/A   
+        </div>
+    </footer>
+</html>

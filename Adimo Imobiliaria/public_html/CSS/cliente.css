@@ -1,0 +1,151 @@
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+       
+
+        @media (min-width: 768px) {
+            .row-cols-md-3 .col {
+                flex: 0 0 33.333333%;
+                max-width: 33.333333%;
+            }
+        }
+
+      
+
+        .search {
+            display: flex;
+            align-items: center;
+        }
+
+        .search input[type="text"] {
+            padding: 8px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .search button {
+            background-color: #e74c3c;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+   
+
+        .search button:hover {
+            background-color: #FF3131;
+        }
+
+     
+        .card.active {
+    border: 2px solid red;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+   
+.social {
+    list-style-type: none;
+    padding: 0;
+    height: 100px;
+    margin: 0 100px;
+}
+
+.social li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    vertical-align: middle; 
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.social img{
+    
+    height: 70px;
+    width: 70px;
+   vertical-align: middle; 
+}
+
+@media (max-width: 767px) {
+    .column {
+        width: 100%; 
+    }
+}
+
+
+.sublista {
+    background-color: #FF3131;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.sublista ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    display: flex;
+    align-items: center; /* Opcional: centraliza verticalmente */
+}
+
+.sublista ul li {
+    display: inline;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.sublista a {
+    color: white;
+    text-decoration: none;
+}
+.card .btn i.fas.fa-heart {
+    color: red !important;;
+    font-size: 1.5em;
+    transition: color 0.3s;
+    background-color: red;
+}
+
+.card .btn i.far.fa-heart:hover {
+    color: red;
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        border-color: red; /* Adicionando a cor da borda ao início da animação */
+    }
+    50% {
+        transform: scale(1.05);
+        border-color: #FF3131; /* Mudando a cor da borda no meio da animação */
+    }
+    100% {
+        transform: scale(1);
+        border-color: red; /* Restaurando a cor da borda no final da animação */
+    }
+}
+
+.card.active {
+    border: 2px solid red;
+    animation: pulse 1.5s infinite;
+}

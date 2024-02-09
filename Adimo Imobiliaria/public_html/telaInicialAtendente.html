@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Adimo Imóveis: Imóveis Disponíveis</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="icon" href="img/logo_adimo.png"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+    </head>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light  shadow" style="background-color: #72383D;">
+            <div class="container">
+                <a class="navbar-brand text-white" href="PaginaInicial.html">Adimo Imóveis</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link text-white" href="https://www.google.com/maps/place/Adimco+Im%C3%B3veis+Eirele+-+ME/@-23.5393576,-46.5984746,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce59295decf3e3:0x9e13e19794b291f9!8m2!3d-23.5393576!4d-46.5984746!16s%2Fg%2F1v6wqg45?entry=ttu
+                               ">Localização</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="telaLogin.html">Imóveis</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="telaSobreNos.html">Sobre Nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="telaAtendimento.html">Fale Conosco</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="telaLogin.html">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+
+    <div class="container bg-white shadow-lg" style="height: 120px">
+    </div>
+    <body style="background-color: #d9d9d9;">
+    
+        
+            <div class="container bg-white p-4 shadow-lg">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <!-- Primeiros três cards -->
+                    <div class="col">
+                        <div class="card h-100 w-100">
+
+                            <img src="img/imovel_mansaoBranca.jpg" style="object-fit: cover; height: 300px;" class="card-img-top" alt="...">
+                            <div class="card-body" data-link="telaConsulta.html"  onclick="redirecionarPagina(event, this)">
+                                <h5 class="card-title">Mansão à venda.</h5>
+                                <p class="card-text">Clique para saber valores, agendamento de visita e detalhes</p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="img/imovel_condominio.jpg" style="object-fit: cover; height: 300px;" class="card-img-top align-self-center" alt="...">
+                            <div class="card-body" data-link="telaConsulta.html"  onclick="redirecionarPagina(event, this)">
+                                <h5 class="card-title">Apartamento à venda.</h5>
+                                <p class="card-text">Clique para saber valores, agendamento de visita e detalhes.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="img/imovel_casaArquitetura.jpg" style="object-fit: cover; height: 300px;" class="card-img-top" alt="...">
+                            <div class="card-body" data-link="telaConsulta.html"  onclick="redirecionarPagina(event, this)">
+                                <h5 class="card-title">Casa disponível para Aluguel.</h5>
+                                <p class="card-text">Clique para saber valores, agendamento de visita e detalhes.</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Próximos seis cards -->
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="img/imovel_casaCastelo.jpg" style="object-fit: cover; height: 300px;" class="card-img-top" alt="...">
+                            <div class="card-body" data-link="telaConsulta.html"  onclick="redirecionarPagina(event, this)">
+                                <h5 class="card-title">Casa a venda.</h5>
+                                <p class="card-text">Clique para saber valores, agendamento de visita e detalhes.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="img/imovel_sobrado.jpg" style="object-fit: cover; height: 300px;" class="card-img-top" alt="...">
+                            <div class="card-body" data-link="telaConsulta.html"  onclick="redirecionarPagina(event, this)">
+                                <h5 class="card-title">Apartamento disponível para Aluguel</h5>
+                                <p class="card-text">Clique para saber valores, agendamento de visita e detalhes.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="img/imovel_chacara.jpg" style="object-fit: cover; height: 300px;" class="card-img-top" alt="...">
+                            <div class="card-body" data-link="telaConsulta.html"  onclick="redirecionarPagina(event, this)">
+                                <h5 class="card-title">Chácara a Venda</h5>
+                                <p class="card-text">Clique para saber valores, agendamento de visita e detalhes.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="img/imovel_casaPiscina.jpg" style="object-fit: cover; height: 300px;" class="card-img-top" alt="...">
+                            <div class="card-body" data-link="telaConsulta.html"  onclick="redirecionarPagina(event, this)">
+                                <h5 class="card-title">Mansão de Alto Padrão á venda.</h5>
+                                <p class="card-text">Clique para saber valores, agendamento de visita e detalhes.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="img/imovel_casaGarden.jpg" style="object-fit: cover; height: 300px;" class="card-img-top" alt="...">
+                            <div class="card-body" data-link="telaConsulta.html"  onclick="redirecionarPagina(event, this)">
+                                <h5 class="card-title">Apartamento em Condomínio á Venda.</h5>
+                                <p class="card-text">Clique para saber valores, agendamento de visita e detalhes.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="img/imovel_mansaoLuxo.jpg" style="object-fit: cover; height: 300px;" class="card-img-top" alt="...">
+                            <div class="card-body" data-link="telaConsulta.html"  onclick="redirecionarPagina(event, this)">
+                                <h5 class="card-title">Casa em Condomínio para Alugar.</h5>
+                                <p class="card-text">Clique para saber valores, agendamento de visita e detalhes.</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <script>
+                function buscarImovel() {
+                    var termo = document.getElementById("termoBusca").value.toLowerCase();
+                    var cards = document.getElementsByClassName("card");
+                    for (var i = 0; i < cards.length; i++) {
+                        var titulo = cards[i].getElementsByClassName("card-title")[0].innerText.toLowerCase();
+                        if (titulo.includes(termo)) {
+                            cards[i].classList.add("active");
+                            cards[i].scrollIntoView({behavior: 'smooth', block: 'center'});
+                        } else {
+                            cards[i].classList.remove("active");
+                        }
+                    }
+                    return false;
+                }
+
+                function destacarCard(element) {
+                    var card = element.parentElement.parentElement;
+                    card.classList.toggle("active");
+                    card.scrollIntoView({behavior: 'smooth', block: 'center'});
+                }
+
+
+            </script>
+            <script>
+                // Verifica se o armazenamento local tem a lista de desejos e a inicializa se não houver
+                if (localStorage.getItem('listaDesejos') === null) {
+                    localStorage.setItem('listaDesejos', JSON.stringify([]));
+                }
+
+                function adicionarListaDesejo(button) {
+                    var card = button.parentElement.parentElement;
+                    card.classList.toggle("active");
+
+                    var listaDesejos = JSON.parse(localStorage.getItem('listaDesejos')) || [];
+
+                    var cardHTML = card.outerHTML;
+                    if (listaDesejos.includes(cardHTML)) {
+                        listaDesejos = listaDesejos.filter(item => item !== cardHTML);
+                    } else {
+                        listaDesejos.push(cardHTML);
+                    }
+
+                    localStorage.setItem('listaDesejos', JSON.stringify(listaDesejos));
+
+                    card.scrollIntoView({behavior: 'smooth', block: 'center'});
+
+                    return false; // Evita a navegação ao clicar no link
+                }
+
+                function visualizarListaDesejos() {
+                    var listaDesejos = JSON.parse(localStorage.getItem('listaDesejos'));
+
+                    if (listaDesejos.length > 0) {
+                        window.location.href = 'telaItensDesejo.html';
+                    } else {
+                        alert('Sua lista de desejos está vazia.');
+                    }
+                }
+            </script>
+            <script>
+                // ... (restante do código) ...
+
+                function redirecionarPagina(event, card) {
+                    // Verifica se o clique foi no botão do coração
+                    if (event.target.classList.contains('far', 'fa-heart')) {
+                        return; // Se sim, não faz nada
+                    }
+
+                    event.preventDefault(); // Evita a navegação padrão do link
+                    var pagina = card.getAttribute("data-link");
+                    window.location.href = pagina;
+                }
+            </script>
+
+    </body>
+    <div class="container bg-white shadow-lg" style="height: 100px">
+    </div>
+    <footer class="text-center text-lg-start text-white" style="background-color: #322D29"> 
+        <section class="d-flex justify-content-between p-4" style="background-color: #72383D">
+            <div class="me-5">
+                <span>Conecte-se conosco em nossas redes:</span>
+            </div>
+            <div>
+                <a href="https://www.facebook.com/adimobimoveis/?locale=pt_BR" class="text-white me-4"> Facebook
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://twitter.com/getadimo/status/1516695696446996489" class="text-white me-4"> Twitter
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/adimo_official/" class="text-white me-4"> Instagram
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.whatsapp.com/?lang=pt_BR" class="text-white me-4"> WhatsApp
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+        </section>
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <div class="row mt-3">
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold">Adimo Imóveis</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #AC9C8D; height: 2px"/>
+                        <p>
+                            Nossa meta é realizar o seu sonho!
+                        </p>
+                    </div>
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold">Links Úteis</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #AC9C8D; height: 2px"/>
+                        <p>
+                            <a href="telaUnidades.html" class="text-white">Unidades</a>
+                        </p>
+                        <p>
+                            <a href=telaLogin.html class="text-white">Anuncie seu Imóvel</a>
+                        </p>
+                        <p>
+                            <a href="telaLogin.html" class="text-white">Imóveis à Venda</a>
+                        </p>
+
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold">Links de Usúario</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #AC9C8D; height: 2px"/>
+                        <p>
+                            <a href="telaLogin.html" class="text-white">Sua Conta</a>
+                        </p>
+                        <p>
+                            <a href="telaCriarConta.html" class="text-white">Trabalhe Conosco</a>
+                        </p>
+                        <p>
+                            <a href="telaCriarConta.html" class="text-white">Cadastre-se</a>
+                        </p>
+                    </div>
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold">Contato</h6>
+                        <hr
+                            class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #AC9C8D; height: 2px"
+                            />
+                        <p><i class="fas fa-home mr-3"></i> Av.Paulista, 4562 - Bela Vista - São Paulo/SP</p>
+                        <p><i class="fas fa-envelope mr-3"></i> adimoimoveis@gmail.com</p>
+                        <p><i class="fas fa-phone mr-3"></i> (11) 1234-3421</p>
+                        <p><i class="fas fa-phone mr-3"></i> (11) 9 3124-3441</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            © 2023 Copyright: Adimo Imóveis S/A   
+        </div>
+    </footer>
+</html>

@@ -1,0 +1,253 @@
+body {
+    background-image: url(../img/AdobeStock_626619971_Preview-transformed.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100%
+
+}
+
+header {
+    background-color: white;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    padding: 10px;
+    height: 120px; 
+
+    
+}
+
+.botao-login {
+    background-color: rgba(53, 53, 53, 0.7);
+
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 36px;
+    cursor: pointer;
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px 20px 30px 40px / 5px 15px;
+    align-items: center;
+    text-align: center;
+    opacity: .7;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.botao-login:hover{
+    animation: pulse 1s infinite;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    color: #ff003b;
+}
+
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    size: 32px;
+
+}
+
+.telefone-container img {
+    max-width: 50px;
+    margin-left: 5px;
+    border-radius: 50px;
+
+}
+
+.telefone-container {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+
+}
+
+.telefone-container span {
+    line-height: 1.5;
+    vertical-align: middle;
+    font-size: 20px;
+    color: white;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+footer {
+    background-color: rgba(51, 51, 51, 0.5);
+    clear: both;
+    padding: 20px;
+    text-align: center;
+}
+
+.rodape {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.social {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 32px;
+}
+.social img{
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+}
+
+#botao-endereco {
+    border: none;
+    padding: 10px 18px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ff0033;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 90px;
+    margin: 20px;
+    align-items: center;
+    background-color: #ff0033;
+    max-width: 60px;
+    margin-left: 1075px;
+    position: relative;
+    color: white;
+   
+
+
+}
+#botao-endereco:hover{
+    animation: pulse 1s infinite;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    color: #ff003b;
+}
+
+#logo-google {
+    width: 70px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 1075px;
+    background-color: rgba(51, 51, 51, 0.5);
+}
+
+#botao-endereco {
+    width: 100px;
+    float: top contour;
+    margin-left: 1050px;
+    margin-top: 30px;
+
+}
+.logo-container img{
+    max-width: 200px;
+    max-height: 100px;
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    50% {
+        transform: scale(1.05);
+        box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    }
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+}
+
+.botao-crie {
+    background-color: rgba(53, 53, 53, 0.7);
+
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 36px;
+    cursor: pointer;
+    width: 300px;
+    margin: 20px;
+    border-radius: 10px 20px 30px 40px / 5px 15px;
+    align-items: center;
+    text-align: center;
+    opacity: 0.7;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.botao-crie:hover {
+    animation: pulse 1s infinite;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    color: #ff003b;
+}
+span{
+    color: white;
+}
+
+.telefone-container a{
+    color: white;
+}
+.telefone-container:hover{
+    color: #ff0000;
+}
+.saiba-mais {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ff0033;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: relative;
+    top: -29px;
+    max-width: 1300px;
+    margin-left: 705px;
+    
+ 
+}
+
+.saiba-mais:hover {
+    background-color: #2980b9;
+    animation: pulse 1s infinite;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    color: #ff003b;
+}
+#logo-historia {
+    width: 70px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 730px;
+}
+ 
